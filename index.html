@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive NavBar</title>
+    
+    <!------------ GOOGLE FONTS ------------>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
+    
+    <!------------ FONTS AWESOME ------------>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
+    <!------------ CUSTOM STYLE SHEET ------------>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <!-- navbar Logo -->
+        <a href="#" class="logo">WEB DEV</a>
+
+        <!-- Navbar Toggler -->
+        <input type="checkbox" id="box-1">
+        <label id="toggler" for="box-1">
+            <span>MENU <i class="fas fa-bars"></i></span>
+        </label>
+
+        <!-- Navbar Items -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+
+        <!-- Navbar Search Form -->
+        <div id="navbar-form">
+            <input type="checkbox" id="box-2">
+            <form action="" id="search-form">
+                <input type="search" placeholder="Search" id="search-bar">
+                <button id="search-btn" type="submit">
+                    <span><i class="fas fa-search"></i></span>
+                </button>
+            </form>
+
+            <label for="box-2" id="search-form-opener">
+                <span><i class="fas fa-search"></i></span>
+            </label>
+
+            <label for="box-2" id="search-form-closer">
+                <span><i class="fas fa-times"></i></span>
+            </label>
+        </div>
+    </nav>
+</body>
+
+</html>
